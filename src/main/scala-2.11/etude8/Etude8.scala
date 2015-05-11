@@ -37,7 +37,7 @@ object Etude8 {
     val inputs = ListBuffer.empty[String]
     val scanner = new Scanner(System.in)
     while(scanner.hasNextLine){
-      inputs += scanner.next()
+      inputs += scanner.nextLine()
     }
     inputs.toList
   }
